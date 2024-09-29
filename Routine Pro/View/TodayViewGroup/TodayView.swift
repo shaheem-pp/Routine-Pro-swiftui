@@ -11,8 +11,7 @@ import SwiftUI
 struct TodayView: View {
     var body: some View {
         TabView {
-            Text("Today")
-                .padding()
+            TodayMainNavigationView()
                 .tabItem {
                     Label("Today", systemImage: "calendar")
                 }
